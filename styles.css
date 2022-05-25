@@ -1,28 +1,44 @@
-    .body {
-      width: 500px;
-      height: auto;
-      }
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
 
-     .main {
-       background-color: red;
-       display: flex;
-        border-bottom: 1px solid gray;
-      }
+.body {
+  width: 450px;
+  height: auto;
+  border: 1px solid lightgray;
+  padding: 15px;
+}
 
-      .main:last-child {
-        border-bottom: none;
-      }
+.main {
+  background-color: white;
+  display: flex;
+  border-bottom: 1px solid #f6f6f6;
+}
 
-      .data {
-        text-align: left;
-        margin-top: 15px;
-        display: block;
-      }
+.main:last-child {
+  border-bottom: none;
+}
 
-      img {
-        width: 100px;
-        height: 100px;
-        margin: 15px;
-        border: 1px solid black;
-        border-radius: 50%;
-      }
+.data {
+  margin-top: 30px;
+  text-align: left;
+  line-height: 50%;
+  display: block;
+}
+
+h2, p {
+  font-family: 'Arimo', sans-serif;
+}
+
+h2 {
+  color: #575757;
+}
+
+p {
+  color: #c7c7c7;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  border-radius: 50%;
+}
